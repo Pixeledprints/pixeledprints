@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixeled Prints</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 0.5em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2em;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    .card {
+      background: white;
+      margin: 1em 0;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pixeled Prints</h1>
+    <p>Custom 3D Printed Items & Personalized Keychains</p>
+  </header>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#design">Design Your Own</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section id="products" class="card">
+      <h2>Our Products</h2>
+      <p>Explore our selection of custom 3D printed keychains, home decor, and more. Each item is made to order with care and precision.</p>
+    </section>
+    <section id="design" class="card">
+      <h2>Design Your Own</h2>
+      <p>Upload your SVG design or describe what you want, and we'll bring your vision to life. Personalized gifts made easy!</p>
+      <button onclick="alert('Upload portal coming soon!')">Upload Your Design</button>
+    </section>
+    <section id="contact" class="card">
+      <h2>Contact Us</h2>
+      <p>Email: support@pixeledprints.com</p>
+      <p>Instagram: @pixeledprints</p>
+    </section>
+  </div>
+  <footer>
+    &copy; 2025 Pixeled Prints. All rights reserved.
+  </footer>
+</body>
+</html>
